@@ -43,19 +43,19 @@ export const Badge = (props: Props) => {
         color: props.poweredByTextColor ?? defaultTextColor,
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
-    >
-      ⚡️ Powered by
-      <a
-        ref={liteBadge}
-        href={'https://thakaamed.com/en/'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Thakaa X</span>
-      </a>
-    </span>
-  );
-};
+        ⚡️ Powered by
+        <a
+          ref={liteBadge}
+          href={'https://thakaamed.com/en/'}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="lite-badge"
+          id="lite-badge"
+          style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
+        >
+          <span> Thakaa X</span>
+        </a>
+      </span>
+    );
+  };
